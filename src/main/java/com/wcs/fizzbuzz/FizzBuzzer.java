@@ -12,6 +12,13 @@ public class FizzBuzzer {
         } else if (number > 7 && number % 7 == 0) {
             return "Wizz";
         }
+        String num = String.valueOf(number);
+        if (num.contains("3")){
+            return "Fizz";
+        } else if (false) {
+            
+        }
+        
         return String.valueOf(number);
     }
 
