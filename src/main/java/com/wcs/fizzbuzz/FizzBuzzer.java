@@ -17,8 +17,9 @@ public class FizzBuzzer {
             return "Fizz";
         } else if (num.contains("5")) {
             return "Buzz";
+        }else if (number > 7  && num.contains("7")) {
+            return "Wizz";
         }
-
         return String.valueOf(number);
     }
 
