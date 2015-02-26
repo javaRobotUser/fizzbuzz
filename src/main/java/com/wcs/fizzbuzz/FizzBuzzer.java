@@ -4,7 +4,7 @@ public class FizzBuzzer {
 
     public String execute(int number) {
         if (number % 3 == 0 && number % 5 == 0) {
-             return "fizzbuzz";
+            return "fizzbuzz";
         } else if (number % 3 == 0) {
             return "fizz";
         } else if (number % 5 == 0) {
@@ -13,12 +13,12 @@ public class FizzBuzzer {
             return "Wizz";
         }
         String num = String.valueOf(number);
-        if (num.contains("3")){
+        if (num.contains("3")) {
             return "Fizz";
-        } else if (false) {
-            
+        } else if (num.contains("5")) {
+            return "Buzz";
         }
-        
+
         return String.valueOf(number);
     }
 

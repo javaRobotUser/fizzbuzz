@@ -43,4 +43,10 @@ public class FizzBuzzerTest {
         assertEquals("Fizz", fizzBuzzer.execute(103));
         assertEquals("Fizz", fizzBuzzer.execute(38));
     }
+
+    @Test
+    public void executeShouldReturnBuzzIfTheNumberCountains5() {
+        assertEquals("Buzz", fizzBuzzer.execute(52));
+        assertEquals("Buzz", fizzBuzzer.execute(59));
+    }
 }
