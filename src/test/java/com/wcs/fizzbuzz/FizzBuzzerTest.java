@@ -31,5 +31,11 @@ public class FizzBuzzerTest {
         assertEquals("4", fizzBuzzer.execute(4));
         assertEquals("7", fizzBuzzer.execute(7));
     }
+    
+     @Test
+    public void executeShouldReturnWizzIfTheNumberIsDividableBy7() {
+        assertEquals("Wizz", fizzBuzzer.execute(49));
+        assertEquals("Wizz", fizzBuzzer.execute(77));
+    }
 
 }
